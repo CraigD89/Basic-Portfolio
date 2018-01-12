@@ -1,7 +1,7 @@
 body{
     background-image: url(../images/marble.jpg);
-    color: #777777
-    'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .wrapper{
@@ -20,7 +20,7 @@ body{
 
 #name{
     position: static;
-    height: 80px;
+    height: 100px;
     width: 250px;
     background: #4aaaa5;
     color: white;
@@ -34,6 +34,7 @@ body{
     height: 100px;
     width: 300px;
     font-size: 20px;
+    text-align: center;
 }
 
 #about{
@@ -42,18 +43,21 @@ body{
     position: static;
     background: white;
     padding: 20px;
-    line-height: 1.25;
+    line-height: 1.5;
     border-style: solid;
     border-width: 2px;
     border-color: #cccccc;
+    clear: both;
+
 }
 
 #connect{
-    width: 270px;
+    width: 225px;
+    height: 150px;
     padding: 20px;
-    position: relative;
-    top: 500px;
-    left: 700px;   
+    position: absolute;
+    left: 1055px;  
+    bottom: 595px;
     background: white;
     border-style: solid;
     border-width: 2px;
@@ -74,5 +78,21 @@ footer{
 img{
     padding-right: 10px;
     padding-bottom: 10px;
+    float: left;
+}
 
+h2{
+    color: #4aaaa5;
+}
+
+input {
+    width: 375px;
+    height: 25px;
+  }
+
+form {
+    width: 650px;
+    height: 400px;
+    margin: auto;
+    position: relative;
 }
